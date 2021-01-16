@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
-                Log.d("Tag", response.toString());
+                Log.d("MainActivity", response.toString());
             }
         }, new Response.ErrorListener() {
             @Override
